@@ -97,7 +97,7 @@ source venv/bin/activate
 ## Contributors
 
 * [MrRezoo](#https://github.com/MrRezoo)
-
+* Seppe vanden Broucke >> author of book
 ## License
 
 Distributed under the MIT License. See [license](LICENSE) for more information.

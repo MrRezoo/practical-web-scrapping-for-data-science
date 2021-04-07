@@ -1,21 +1,15 @@
 # Security Policy
 
-## Supported Versions
+This repository uses the latest version of Python packages and libraries
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+## Supported Versions
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| 3.9.2   | :white_check_mark: |
+| 3.5.x   | :x:                |
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
-
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+If you have a better and more efficient solution to the problems in this book,
+please report it

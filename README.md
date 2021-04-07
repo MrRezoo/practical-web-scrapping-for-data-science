@@ -1,4 +1,6 @@
-# Practical Web Scraping and Crawling for Data Science: Best Practices and Examples with Python
+## Practical Web Scraping and Crawling for Data Science: Best Practices and Examples with Python
+
+![python](assets/real_python.png)
 
 Hello friends of this [Mr.Rezoo](https://www.linkedin.com/in/reza-mobaraki/)
 

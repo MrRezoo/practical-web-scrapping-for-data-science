@@ -1,1 +1,1 @@
-# -MrRezoo-practical-web-scrapping-for-data-science
+# practical-web-scrapping-for-data-science

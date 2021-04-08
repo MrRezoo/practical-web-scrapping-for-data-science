@@ -1,5 +1,5 @@
 import scrapy
-from ..items import Withscrapy1Item
+from ..items import ScrapyItem
 
 class ThirdSpider(scrapy.Spider):
     name = 'third'
@@ -7,7 +7,7 @@ class ThirdSpider(scrapy.Spider):
     start_urls = ['http://quotes.toscrape.com/']
 
     def parse(self, response):
-        items = Withscrapy1Item()
+        items = ScrapyItem()
 
         for quote in response.css('div.quote'):
             items['text'] = quote.css('.text::text').get()

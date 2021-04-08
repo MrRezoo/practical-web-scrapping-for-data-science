@@ -40,4 +40,24 @@ class FirstSpider(scrapy.Spider):
                 'author': quote.css('small.author::text').extract_first(),
                 'tags': quote.css('a.tag::text').extract(),
             }
+
+        print('==' * 100)
         #  ---------------------------------------------------------------------
+        """ use xpath"""
+        print(response.xpath('/html/head/title').getall())
+        print('==' * 100)
+        """ use xpath => text """
+        print(response.xpath('//title/text()').getall())
+        print('==' * 100)
+        """ use xpath => attributes"""
+        print(response.xpath('//meta/@charset').getall())
+        print('==' * 100)
+        """ use xpath => get with inspect on browser"""
+        print(response.xpath(
+            '/html/body/div/div[2]/div[1]/div[1]/span[2]/small').getall())
+        print('==' * 100)
+        """ user xpath => get it with selectorGadget"""
+        print(response.xpath(
+            '//*[contains(concat( " ", @class, " " ), concat( " ", "author", '
+            '" " ))]').getall())
+        print('==' * 100)

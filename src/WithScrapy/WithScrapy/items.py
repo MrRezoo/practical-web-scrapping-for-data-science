@@ -6,7 +6,7 @@
 import scrapy
 
 
-class Withscrapy1Item(scrapy.Item):
+class WithScrapyItem(scrapy.Item):
     # define the fields for your item here like:
     text = scrapy.Field()
     author = scrapy.Field()

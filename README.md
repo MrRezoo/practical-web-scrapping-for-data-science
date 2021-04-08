@@ -90,13 +90,13 @@ source venv/bin/activate
 
 ## Credits
 
-* [Apress ](#https://github.com/Apress/practical-web-scraping-for-data-science)
-* [7learn](#https://www.7learn.ac/)
-* [mongard](#https://www.mongard.ir/courses/python-web-scraping/)
+* [Apress](https://github.com/Apress/practical-web-scraping-for-data-science)
+* [7learn](https://www.7learn.ac/)
+* [mongard](https://www.mongard.ir/courses/python-web-scraping/)
 
 ## Contributors
 
-* [MrRezoo](#https://github.com/MrRezoo)
+* [MrRezoo](https://github.com/MrRezoo)
 * Seppe vanden Broucke >> author of book
 
 ## License

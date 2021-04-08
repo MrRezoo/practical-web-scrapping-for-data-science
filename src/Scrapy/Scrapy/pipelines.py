@@ -6,8 +6,15 @@
 
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
+from scrapy.exceptions import DropItem
 
 
 class ScrapyPipeline:
+    """ if you want to disable or enable pipeline /settings.py line 65-68"""
+
     def process_item(self, item, spider):
-        return item
+        if len(item.get('tags')) >= 2:
+            item['tags'] = item['tags'][:2]
+            return item
+        else:
+            raise DropItem('Sorry, this quote has fewer tags...')

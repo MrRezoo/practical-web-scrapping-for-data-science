@@ -97,7 +97,7 @@ source venv/bin/activate
 ## Contributors
 
 * [MrRezoo](https://github.com/MrRezoo)
-* Seppe vanden Broucke >> author of book
+* Seppe vanden Broucke | author of Practical Web Scraping and Crawling for Data Science 
 
 ## License
 

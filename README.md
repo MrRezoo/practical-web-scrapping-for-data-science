@@ -88,8 +88,21 @@ source venv/bin/activate
  pip install -r requirements.txt
 ```
 
+* to run scrapy spiders
+
+```shell
+scrapy crawl <spider-name> 
+```
+
+if you want to store data in => json, jl, csv, excel
+
+```shell
+scrapy crawl <spider-name> -o <file-name.extention> 
+```
+
 ## Credits
 
+* [Quotes to Scrape](https://quotes.toscrape.com/)
 * [Apress](https://github.com/Apress/practical-web-scraping-for-data-science)
 * [7learn](https://www.7learn.ac/)
 * [mongard](https://www.mongard.ir/courses/python-web-scraping/)
@@ -97,7 +110,8 @@ source venv/bin/activate
 ## Contributors
 
 * [MrRezoo](https://github.com/MrRezoo)
-* Seppe vanden Broucke | author of Practical Web Scraping and Crawling for Data Science 
+* Seppe vanden Broucke | author of Practical Web Scraping and Crawling for Data
+  Science
 
 ## License
 
